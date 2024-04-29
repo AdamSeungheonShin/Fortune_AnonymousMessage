@@ -31,6 +31,5 @@ module.exports = {
     'react/react-in-jsx-scope': 'off', // React 변수가 JSX 스코프 내에 있어야 하는 규칙을 비활성화
     'react/prop-types': 'off', // React 컴포넌트의 prop 유형 검사 규칙을 비활성화
     'no-unused-vars': 'off', // 사용되지 않은 변수에 대한 경고를 비활성화
-    'import/order': 'error',
   },
 };
