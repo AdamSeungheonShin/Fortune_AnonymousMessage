@@ -9,7 +9,7 @@ const GlobalStyle = createGlobalStyle`
   body {
     padding: 0;
     margin: 0;
-    font-family: 'Noto Sans KR', Pretendard;
+    font-family: 'Pretendard', sans-serif;  
   }
   button {
     padding: 0;
@@ -18,11 +18,16 @@ const GlobalStyle = createGlobalStyle`
     cursor: pointer;
     background-color: transparent;
   }
-  input{
-    padding: 0;
+  input, textarea{
+    width: 100%;
+    height: 100%;
     margin: 0;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    resize: none;
   }
-  input:focus, textarea {
+  input:focus, textarea:focus {
     outline: none;
   }
 `;
