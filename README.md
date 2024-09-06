@@ -1,4 +1,4 @@
-# 💻 코드잇 프로젝트
+# 🥠 Fortune
 
 - React를 이용한 프로젝트
 - styled-components를 사용한 스타일링
